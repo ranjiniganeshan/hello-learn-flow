@@ -46,7 +46,7 @@ jobs:
       # Step 7: Update Helm values.yaml with the new image tag
       - name: Update Helm values.yaml
         run: |
-          sed -i "s|tag:.*|tag: ${{ github.run_number }}|" charts/guestbook-ui/values.yaml
+          sed -i "s|tag:.*|tag: ${{ github.run_number }}|" Charts/guestbook-ui/values.yaml
 
       # Step 8: Commit and push Helm update
       - name: Commit Helm update
