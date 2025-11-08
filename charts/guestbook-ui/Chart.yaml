@@ -1,0 +1,6 @@
+apiVersion: v2
+name: guestbook-ui
+description: A Helm chart to deploy Guestbook UI built with Vite + React
+type: application
+version: 0.1.0
+appVersion: "1.0.0"
